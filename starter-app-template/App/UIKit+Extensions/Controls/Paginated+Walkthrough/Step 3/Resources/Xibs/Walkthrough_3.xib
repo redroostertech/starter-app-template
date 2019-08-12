@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Walkthrough_3" customModule="SquishyBananas" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="pRw-FE-C9e"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Squishy" translatesAutoresizingMaskIntoConstraints="NO" id="OyW-Xm-HIY">
+                    <rect key="frame" x="66" y="76" width="282" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="xL3-CR-Ybk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group calls FTW!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcp-nC-db9">
+                    <rect key="frame" x="66" y="332" width="282" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xez-dA-cFz">
+                    <rect key="frame" x="66" y="366" width="282" height="33.5"/>
+                    <string key="text">Stay connected with your loved ones 
+on</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="walkthrough_2" translatesAutoresizingMaskIntoConstraints="NO" id="M8O-BR-pSU">
+                    <rect key="frame" x="66" y="150" width="282" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="btj-cg-C9u"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="pcp-nC-db9" firstAttribute="leading" secondItem="OyW-Xm-HIY" secondAttribute="leading" id="AKw-eI-qdZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OyW-Xm-HIY" secondAttribute="trailing" constant="66" id="BFd-fB-4ew"/>
+                <constraint firstItem="pcp-nC-db9" firstAttribute="trailing" secondItem="OyW-Xm-HIY" secondAttribute="trailing" id="D5W-CU-feA"/>
+                <constraint firstItem="M8O-BR-pSU" firstAttribute="top" secondItem="OyW-Xm-HIY" secondAttribute="bottom" constant="32" id="Jla-jP-83J"/>
+                <constraint firstItem="pcp-nC-db9" firstAttribute="trailing" secondItem="OyW-Xm-HIY" secondAttribute="trailing" id="Kew-3F-cZa"/>
+                <constraint firstItem="M8O-BR-pSU" firstAttribute="leading" secondItem="OyW-Xm-HIY" secondAttribute="leading" id="LRd-cy-d3J"/>
+                <constraint firstItem="xez-dA-cFz" firstAttribute="top" secondItem="pcp-nC-db9" secondAttribute="bottom" constant="16" id="Lg9-Wt-f6g"/>
+                <constraint firstItem="OyW-Xm-HIY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="66" id="MS5-oI-5OT"/>
+                <constraint firstItem="M8O-BR-pSU" firstAttribute="trailing" secondItem="OyW-Xm-HIY" secondAttribute="trailing" id="QgZ-JO-LFe"/>
+                <constraint firstItem="OyW-Xm-HIY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="Tl6-Ut-i2T"/>
+                <constraint firstItem="xez-dA-cFz" firstAttribute="trailing" secondItem="OyW-Xm-HIY" secondAttribute="trailing" id="b5b-Or-8A6"/>
+                <constraint firstItem="pcp-nC-db9" firstAttribute="leading" secondItem="OyW-Xm-HIY" secondAttribute="leading" id="c2w-Vp-oqF"/>
+                <constraint firstItem="pcp-nC-db9" firstAttribute="top" secondItem="M8O-BR-pSU" secondAttribute="bottom" constant="32" id="kZK-jY-EhF"/>
+                <constraint firstItem="xez-dA-cFz" firstAttribute="leading" secondItem="OyW-Xm-HIY" secondAttribute="leading" id="mrI-sV-DC4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Squishy" width="1440" height="1438"/>
+        <image name="walkthrough_2" width="268" height="143"/>
+    </resources>
+</document>
